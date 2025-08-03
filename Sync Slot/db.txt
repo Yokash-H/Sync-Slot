@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS syncfree;
+
+USE syncfree;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    reg_number VARCHAR(20),
+    slot_preference TEXT
+);
